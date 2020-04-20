@@ -7,11 +7,14 @@ def line(katz_deli)
     current_line = "The line is currently:"
 
     katz_deli.each_with_index do |customer, index|
+      binding.pry
       current_line = current_line + " #{index+1}. #{customer}"
     end
     puts "#{current_line}"
   end
 end
+
+line("Shannon", "Brianna")
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
