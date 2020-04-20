@@ -14,7 +14,7 @@ def line(katz_deli)
   end
 end
 
-line("Shannon", "Brianna")
+line(["Shannon", "Brianna"])
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
